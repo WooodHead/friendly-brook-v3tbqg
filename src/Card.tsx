@@ -11,6 +11,8 @@ const style = {
   marginBottom: '.5rem',
   backgroundColor: 'white',
   cursor: 'move',
+  // width: '200px',
+  whitespace: 'nowrap'
 }
 
 export interface CardProps {

@@ -5,7 +5,9 @@ import { useCallback, useState } from 'react'
 import { Card } from './Card'
 
 const style = {
-  width: 400,
+  width: 800,
+  display: 'flex',
+  gap: 10
 }
 
 export interface Item {
@@ -22,11 +24,11 @@ export const Container: FC = () => {
     const [cards, setCards] = useState([
       {
         id: 1,
-        text: 'Write a cool JS library',
+        text: 'Write a cool',
       },
       {
         id: 2,
-        text: 'Make it generic enough',
+        text: 'Make it',
       },
       {
         id: 3,
@@ -34,11 +36,11 @@ export const Container: FC = () => {
       },
       {
         id: 4,
-        text: 'Create some examples',
+        text: 'Create some',
       },
       {
         id: 5,
-        text: 'Spam in Twitter and IRC to promote it (note that this element is taller than the others)',
+        text: 'Spam in Twitter',
       },
       {
         id: 6,
